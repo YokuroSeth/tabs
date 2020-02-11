@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Табы</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-offset-3 col-lg-6">
+				<div class="main">
+
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#questions" aria-controls="questions" role="tab" data-toggle="tab">Вопросы</a></li>
+						<li role="presentation"><a href="#complaint" aria-controls="complaint" role="tab" data-toggle="tab">Жалобы</a></li>
+						<li role="presentation"><a href="#registr" aria-controls="registr" role="tab" data-toggle="tab">Регистрация</a></li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="questions">
+							<div class="form">
+								<form action="#">
+									<p>имя</p>
+									<input id="name_1" class="form-input" type="text">
+									<p>email</p>
+									<input id="email_1" class="form-input" type="text">
+									<p>тема сообщения</p>
+									<input id="theme_1" class="form-input" type="text">
+								</form>
+							</div>
+							<div class="message">
+								<p>сообщение</p>
+								<textarea name="area_1" id="#area_1"></textarea>
+							</div>
+							<button>отправить сообщение</button>
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade in" id="complaint">
+							<div class="form">
+								<form action="#">
+									<p>имя</p>
+									<input id="name_2" class="form-input" type="text">
+									<p>email</p>
+									<input id="email_2" class="form-input" type="text">
+									<p>тема сообщения</p>
+									<input id="theme_2" class="form-input" type="text">
+								</form>
+							</div>
+							<div class="message">
+								<p>сообщение</p>
+								<textarea name="area_2" id="#area_2"></textarea>
+							</div>
+							<button>отправить сообщение</button>
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade in" id="registr">
+							<div class="form">
+								<form action="#">
+									<p>имя</p>
+									<input id="name_3" class="form-input" type="text">
+									<p>email</p>
+									<input id="email_3" class="form-input" type="text">
+									<p>тема сообщения</p>
+									<input id="theme_3" class="form-input" type="text">
+								</form>
+							</div>
+							<div class="message">
+								<p>сообщение</p>
+								<textarea name="area_3" id="#area_3"></textarea>
+							</div>
+							<button>отправить сообщение</button>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</body>
+	</html>

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+  font-family: 'Archive';
+  src: url('../fonts/Archive.eot');
+  src: url('../fonts/Archive.eot?#iefix') format('embedded-opentype'), url('../fonts/Archive.woff2') format('woff2'), url('../fonts/Archive.woff') format('woff'), url('../fonts/Archive.ttf') format('truetype'), url('../fonts/Archive.svg#Archive') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #282828;
+}
+.main {
+  position: relative;
+  top: 25rem;
+  width: 68rem;
+  height: 40rem;
+  padding: 3rem 5rem;
+  text-transform: uppercase;
+  background-color: #ebebeb;
+}
+.main ul {
+  font-family: 'Archive', sans-serif;
+}
+.main ul li {
+  margin-right: 1.2rem;
+  border-radius: 3px 3px 0 0;
+}
+.main ul li a {
+  display: inline-block;
+  height: 3rem;
+  width: 100%;
+  padding: 0 1.5rem;
+  line-height: 3rem;
+  font-size: 1.3rem;
+  color: #7794aa;
+  background-color: #fff;
+  border: 1px solid #d4dee5;
+}
+.main .nav-tabs li.active a,
+.main .nav-tabs li.active a:focus,
+.main .nav-tabs li.active a:hover {
+  color: #fff;
+  background: linear-gradient(#4b6787, #7b97ad);
+}
+.main .form,
+.main .message {
+  width: 28rem;
+  height: 22rem;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  color: #425666;
+  font-weight: 900;
+}
+.main .form {
+  margin: 3rem 2rem 2.5rem 0;
+}
+.main .form p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.main .form input {
+  height: 3.2rem;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 1.9rem;
+  border: 1px solid #b2c4d4;
+  border-radius: 3px;
+}
+.main .form input:active,
+.main .form input:focus {
+  outline: none;
+}
+.main .message {
+  margin-top: 3rem;
+}
+.main .message p {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.main .message textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  height: 19rem;
+  margin: 0 auto;
+  resize: none;
+  border: 1px solid #b2c4d4;
+  border-radius: 3px;
+}
+.main .message textarea:active,
+.main .message textarea:focus {
+  outline: none;
+}
+.main button {
+  display: block;
+  clear: both;
+  width: 22rem;
+  height: 4rem;
+  border: 1px solid #6d8819;
+  border-radius: 2rem;
+  font-family: 'Archive', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  background: linear-gradient(#a8e316, #1d961d);
+  box-shadow: 0px 1px 3px rgba(109, 136, 25, 0.45), 0px 2px 4px rgba(201, 238, 43, 0.9) inset;
+}
